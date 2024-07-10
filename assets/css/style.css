@@ -1,0 +1,63 @@
+body {
+  margin: 0px;
+  font-family: 'nunito';
+  color: white;
+  background-color: rgb(1, 1, 24);
+}
+
+.section-header {
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-bottom: 1%;
+  font-size: 2em;
+  font-weight: 400;
+  height: 15%;
+  background-image: url(../imgs/fondo.jpg);
+  background-size: cover no-repeat;
+  background-position: center;
+}
+
+.titulo1 {
+  color: yellow;
+}
+
+.texto-sombreado {
+  text-shadow:
+    1px 1px 2px black,
+    0 0 1em blue,
+    0 0 0.2em blue;
+  color: white;
+}
+
+.container-imagen {
+  width: 50%;
+  padding-left: 10%;
+}
+
+.imagen-planeta {
+  width: 200px;
+  height: 200px;
+}
+
+.section-main {
+  padding-top: 1%;
+  padding-left: 7%;
+  height: 65.7vh;
+}
+
+.main td {
+  width: 50%;
+  /*   padding: 2em; */
+}
+
+.main img {
+  max-width: 100%;
+}
+
+.section-footer {
+  height: 5vh;
+  line-height: 3em;
+  background-color: gray;
+  text-align: center;
+  background-size: cover;
+}
